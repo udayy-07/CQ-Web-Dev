@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Image Gallery</title>
+    <style>
+            body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      figure {
+        width: 30%;
+        margin: 10px;
+        text-align: center;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      figcaption {
+        font-size: 0.8em;
+        margin: 10px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 1.2em;
+      }
+      #communiqué-logo {
+        max-height: 50px;
+        margin-right: 10px;
+        border-radius: 5px;
+      }
+      #facebook-logo {
+        max-height: 50px;
+        margin-right: 10px;
+        border-radius: 25px;
+      }
+      #twitter-logo {
+        max-height: 50px;
+        margin-right: 10px;
+        border-radius: 25px;
+      }
+      #instagram-logo {
+        max-height: 50px;
+        margin-right: 10px;
+        border-radius: 15px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Image Gallery</h1>
+    </header>
+    <main>
+      <figure>
+        <img src="image1.jpeg" alt="Image 1">
+        <figcaption>Main Building IIT KGP, where it all started.</figcaption>
+      </figure>
+      <figure>
+        <img src="image2.jpeg" alt="Image 2">
+        <figcaption>First visit to Nalanda on the first night out.</figcaption>
+      </figure>
+      <figure>
+        <img src="image3.jpeg" alt="Image 3">
+        <figcaption>First visit to Nehru Museum.</figcaption>
+      </figure>
+    </main>
+    <footer>
+      <a href="https://www.facebook.com/profile.php?id=100087750030750"><img src="facebook.png" alt="facebook" id="facebook-logo"></a>
+      <a href="https://twitter.com/Arnav1Uday"><img src="twitter.png" alt="twitter" id="twitter-logo"></a>
+      <a href="https://www.instagram.com/udayy___/"><img src="insta.png" alt="instagram" id="instagram-logo"></a>
+      <a href="http://www.cqiitkgp.com/"><img src="communiqué-logo.png" alt="Communiqué" id="communiqué-logo"></a>
+    </footer>
+  </body>
+</html>
